@@ -1,0 +1,22 @@
+## Sitemap
+
+- What is Fractal
+	- Benoit Mandelbrot
+	- Self Similarity
+	- Coastline Paradox
+- Types of Fractal
+	- Organic Patterns
+		- Mandelbrot Set
+		- Barnsley Fern
+		- H Tree
+		- Pythagoras Tree
+		- Fractal Flame
+	- Non-Organic Patterns
+		- T-Square
+		- L-System
+- Applications
+	- Fractal Cosmology
+	- Fractal Antenna
+	- Fractal Landscape
+	- Brownian Motion
+	- Fractal Art
