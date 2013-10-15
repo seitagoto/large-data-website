@@ -2,7 +2,8 @@
 <html lang=en-ca>
 <head>
 	<meta charset=utf-8>
-	<title>{{page.title}} — Fractilia</title>
+	<title>Fractilia — {{page.title}}</title>
+	<meta name="description" content="{{page.description}}">
 	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
@@ -22,14 +23,28 @@
 			</div>
 		</header>
 
+		<div class="{{page.bgclass}} masthead">
+			<span>{{page.top}}</span>
+		</div>
+
+		<nav class="unit unit-s-1 unit-m-1 unit-l-1-5">
+			<div class="top-nav unit-spacer">
+				<ul>
+					<li><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
+					<li><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
+					<li><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
+				</ul>
+			</div>
+		</nav>
+
 		{{content}}
 
 		<footer>
 			<div class="ft-nav unit-spacer">
 				<ul>
 					<li><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
-					<li><a href="{{site.baseurl}}/type/index.html">Types of Fractal</a></li>
-					<li><a href="{{site.baseurl}}/application/index.html">Application</a></li>
+					<li><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
+					<li><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
 				</ul>
 				© Fractilia 2013
 			</div>
