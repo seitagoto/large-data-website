@@ -120,7 +120,7 @@ footer {
 		display: inline-block;
 		margin-top: 1em;
 		font: normal 200%/1 sans-serif;
-		color: rgba(255,0,0,0.5);
+		color: rgba(255,0,0,0.7);
 	}
 
 		div > ul > li {
@@ -161,11 +161,11 @@ footer {
 
 	footer {
 		padding-left: 20%;
-		}
 	}
 
-
 	.top-nav > ul > li {
+		margin: 0;
+		display: block;
 		text-align: right;
 	}
 
