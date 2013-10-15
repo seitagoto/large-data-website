@@ -1,0 +1,20 @@
+/* TEAM */
+
+Your title: Seita Goto
+Site: seita.goto@gmail.com
+Twitter: @gotoseita
+Location: Ottawa, Canada
+
+
+
+/* THANKS */
+
+Thomas J. Bradley
+
+
+/* SITE */
+
+Last update: 2013/10/13
+Standards: HTML5 & CSS3
+Components: MathML
+Software: Sublime Text 2, GitHub, Terminal
