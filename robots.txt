@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /ia/
+Disallow: /visual-style/
+Disallow: test.html
+Disallow: personas.md
