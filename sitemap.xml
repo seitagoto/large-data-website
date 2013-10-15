@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>http://fractilia.com/</loc>
+		<lastmod>2013-10-13</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.8</priority>
+	</url>
+
+		<url>
+			<loc>http://fractilia.com/what/</loc>
+		</url>
+
+			<url>
+				<loc>http://fractilia.com/what/benoit-mandelbrot/</loc>
+			</url>
+
+			<url>
+				<loc>http://fractilia.com/what/self-similarity/</loc>
+			</url>
+
+			<url>
+				<loc>http://fractilia.com/what/coastline-paradox</loc>
+			</url>
+
+		<url>
+			<loc>http://fractilia.com/types/</loc>
+		</url>
+
+			<url>
+				<loc>http://fractilia.com/types/organic/</loc>
+			</url>
+
+				<url>
+					<loc>http://fractilia.com/types/organic/mandelbrot-set</loc>
+				</url>
+
+				<url>
+					<loc>http://fractilia.com/types/organic/barnsley-fern</loc>
+				</url>
+
+				<url>
+					<loc>http://fractilia.com/types/organic/h-tree</loc>
+				</url>
+
+				<url>
+					<loc>http://fractilia.com/types/organic/pythagoras-tree</loc>
+				</url>
+
+				<url>
+					<loc>http://fractilia.com/types/organic/fractal-flame</loc>
+				</url>
+
+			<url>
+				<loc>http://fractilia.com/types/non-organic/</loc>
+			</url>
+
+				<url>
+					<loc>http://fractilia.com/types/non-organic/t-square</loc>
+				</url>
+
+				<url>
+					<loc>http://fractilia.com/types/non-organic/l-system</loc>
+				</url>
+
+		<url>
+			<loc>http://fractilia.com/applications/</loc>
+		</url>
+
+			<url>
+				<loc>http://fractilia.com/applications/cosmology/</loc>
+			</url>
+
+			<url>
+				<loc>http://fractilia.com/applications/antenna/</loc>
+			</url>
+
+			<url>
+				<loc>http://fractilia.com/applications/landscape/</loc>
+			</url>
+
+			<url>
+				<loc>http://fractilia.com/applications/brownian-motion/</loc>
+			</url>
+
+			<url>
+				<loc>http://fractilia.com/applications/art/</loc>
+			</url>
+
+</urlset>
