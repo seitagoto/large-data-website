@@ -23,36 +23,10 @@ header {
 	background: #000;
 }
 
-h1 {
-	margin: 0;
-	background: #000;
-	border-bottom: 1px solid #fff;
-}
-
-h1 > a {
-	background-image: url(../img/fractilia-logo.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 75px;
-	text-indent: -9999px;
-	display: block;
-}
-
 nav {
 
 }
 
-div > ul {
-	padding: 0;
-}
-
-div > ul > li {
-	list-style: none;
-}
-
-li > a {
-	text-decoration: none;
-}
 
 footer {
 	background: #000;
@@ -100,18 +74,6 @@ footer {
 		height: 75px;
 	}
 
-	h1 {
-		float: left;
-		display: inline-block;
-		width: 240px;
-		border-right: 1px solid #fff;
-		border-bottom: none;
-	}
-
-	h1 > a {
-		background-position: left;
-	}
-
 	.masthead {
 		height: 15em;
 	}
@@ -122,11 +84,6 @@ footer {
 		font: normal 200%/1 sans-serif;
 		color: rgba(255,0,0,0.7);
 	}
-
-		div > ul > li {
-			display: inline;
-			margin-right: 2em;
-		}
 
 	.searchbar {
 		float: right;
@@ -161,12 +118,6 @@ footer {
 
 	footer {
 		padding-left: 20%;
-	}
-
-	.top-nav > ul > li {
-		margin: 0;
-		display: block;
-		text-align: right;
 	}
 
 }
