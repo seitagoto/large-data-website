@@ -4,8 +4,9 @@
 	<meta charset=utf-8>
 	<title>Fractilia — {{page.title}}</title>
 	<meta name="description" content="{{page.description}}">
-	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/structure.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -37,7 +38,13 @@
 			</div>
 		</nav>
 
-		{{content}}
+		<article class="unit unit-s-1 unit-m-3-4 unit-l-3-5">
+			<div class="unit-spacer">
+
+			{{content}}
+
+			</div>
+		</article>
 
 		<footer>
 			<div class="ft-nav unit-spacer">
