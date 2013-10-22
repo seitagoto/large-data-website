@@ -1,0 +1,19 @@
+---
+layout: default
+title: What is Fractal?
+description: Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.
+top: Clouds are not spheres, mountains are not cones, coastlines are not circles, and bark is not smooth, nor does lightning travel in a straight line.
+bgclass: home-masthead
+social: <meta property="og:type" content="article"><meta property="og:title" content="Home"><meta property="og:url" content="http://fractilia.org/"><meta property="og:image" content="../img/mandelbrot.jpg"><meta property="og:site_name" content="Fractilia"><meta property="og:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Home"><meta property="twitter:url" content="http://fractilia.org/"><meta property="twitter:image" content="../img/mandelbrot.jpg"><meta property="twitter:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.">
+---
+
+<h2>What is Fractal?</h2>
+	<ul>
+		{% for fractal in site.pages %}
+			{% if fractal.category == "what" %}
+				<li>
+					<a href="{{fractal.url}}">{{fractal.title}}</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
