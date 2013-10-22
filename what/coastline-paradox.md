@@ -1,4 +1,12 @@
-# Coastline Paradox
+---
+title: Coastline Paradox
+layout: default
+ontology: terminology
+category: what
+social: <meta property="og:type" content="article"><meta property="og:title" content="Benoit Mandelbrot"><meta property="og:url" content="http://fractilia.org/what/benoit-mandelbrot"><meta property="og:image" content="../img/mandelbrot.jpg"><meta property="og:site_name" content="Fractilia"><meta property="og:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Benoit Mandelbrot"><meta property="twitter:url" content="http://fractilia.org/what/benoit-mandelbrot"><meta property="twitter:image" content="../img/mandelbrot.jpg"><meta property="twitter:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.">
+---
+
+## Coastline Paradox
 
 The coastline paradox is the counterintuitive observation that the coastline of
 a landmass does not have a well-defined length. This results from the fractal-like
@@ -12,7 +20,7 @@ the size of the smallest feature that should not be measured around, and hence n
 single well-defined perimeter to the landmass. Various approximations exist when
 specific assumptions are made about minimum feature size.
 
-## Mathematical Aspects
+### Mathematical Aspects
 
 The basic concept of length originates from Euclidean distance. In the familiar
 Euclidean geometry, a straight line represents the shortest distance between two
@@ -48,7 +56,7 @@ and 'distance' on the atomic level.
 Coastlines differ from mathematical fractals because they are formed by numerous
 small events, which create patterns only statistically.
 
-## Practical
+### Practical
 
 For practical considerations, an appropriate choice of minimum feature size is on
 the order of the units being used to measure. If a coastline is measured in kilometers,
