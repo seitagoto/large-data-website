@@ -1,12 +1,11 @@
 ---
 title: Benoit Mandelbrot
-layout: default
+layout: article
 ontology: person
 category: what
-social: <meta property="og:type" content="article"><meta property="og:title" content="Benoit Mandelbrot"><meta property="og:url" content="http://fractilia.org/what/benoit-mandelbrot"><meta property="og:image" content="../img/mandelbrot.jpg"><meta property="og:site_name" content="Fractilia"><meta property="og:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Benoit Mandelbrot"><meta property="twitter:url" content="http://fractilia.org/what/benoit-mandelbrot"><meta property="twitter:image" content="../img/mandelbrot.jpg"><meta property="twitter:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.">
+jump: <ul><li><a href="#1">Top</a></li><li><a href="#2">Early Years</a></li><li><a href="#3">Research Career</a></li></ul>
+thumb: benoit-mandelbrot
 ---
-
-## Benoit Mandelbrot
 
 Benoit B. Mandelbrot (20 November 1924 – 14 October 2010) was a Polish-born,
 French and American mathematician, noted for developing a "theory of roughness"
@@ -39,7 +38,7 @@ Centre National de la Recherche Scientifique. During his career, he received ove
 15 honorary doctorates and served on many science journals, along with winning
 numerous awards. His autobiography, The Fractalist, was published in 2012.
 
-### Early Years
+### <span id="2">Early Years</span>
 
 Mandelbrot was born in Warsaw into a Jewish family from Lithuania. His family
 had a strong academic tradition — his mother was a dental surgeon, although his
@@ -69,7 +68,7 @@ Technology, where he earned a master's degree in aeronautics. Returning to
 France, he obtained his PhD degree in Mathematical Sciences at the University of
 Paris in 1952.
 
-### Research Career
+### <span id="3">Research Career</span>
 
 From 1949 to 1958, Mandelbrot was a staff member at the Centre National de la
 Recherche Scientifique. During this time he spent a year at the Institute for
@@ -221,7 +220,7 @@ Laboratory. Mandelbrot was promoted to Officer of the Legion of Honour in Januar
 2006. An honorary degree from Johns Hopkins University was bestowed on Mandelbrot
 in the May 2010 commencement exercises
 
-Death and Legacy
+###Death and Legacy
 
 Mandelbrot died in a hospice in Cambridge, Massachusetts, on 14 October 2010 from
 pancreatic cancer, at the age of 85. Reacting to news of his death, mathematician

@@ -1,12 +1,9 @@
 ---
 title: Coastline Paradox
-layout: default
+layout: article
 ontology: terminology
 category: what
-social: <meta property="og:type" content="article"><meta property="og:title" content="Benoit Mandelbrot"><meta property="og:url" content="http://fractilia.org/what/benoit-mandelbrot"><meta property="og:image" content="../img/mandelbrot.jpg"><meta property="og:site_name" content="Fractilia"><meta property="og:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Benoit Mandelbrot"><meta property="twitter:url" content="http://fractilia.org/what/benoit-mandelbrot"><meta property="twitter:image" content="../img/mandelbrot.jpg"><meta property="twitter:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.">
 ---
-
-## Coastline Paradox
 
 The coastline paradox is the counterintuitive observation that the coastline of
 a landmass does not have a well-defined length. This results from the fractal-like
