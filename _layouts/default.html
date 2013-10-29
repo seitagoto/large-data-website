@@ -4,61 +4,80 @@
 	<meta charset=utf-8>
 	<title>Fractilia — {{page.title}}</title>
 	<meta name="description" content="{{page.description}}">
-	<link href="{{site.baseurl}}/css/structure.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	{{page.social}}
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{page.title}}">
+	<meta property="og:url" content="http://fractilia.org{{page.url}}">
+	<meta property="og:image" content="../img/mandelbrot.jpg">
+	<meta property="og:site_name" content="Fractilia">
+	<meta property="og:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.">
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:title" content="{{page.title}}">
+	<meta property="twitter:url" content="http://fractilia.org{{page.url}}">
+	<meta property="twitter:image" content="../img/mandelbrot.jpg">
+	<meta property="twitter:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.">
 </head>
 <body>
 
 	<div class="container">
 
 		<header>
-			<h1>
-				<a href="{{site.baseurl}}/index.html">Fractilia</a>
+			<h1 class="logo">
+				<a href="{{site.baseurl}}/index.html" class="logo__img ir">Fractilia</a>
 			</h1>
-			<div class="searchbar">
-				<input type="search" placeholder="Search">
-			</div>
+			<nav>
+				<div class="searchbar">
+					<input type="search" placeholder="Search">
+				</div>
+				<a href="#" class="nav-btn ir"></a>
+					<ul class="nav nav-list">
+						<li class="nav-list__item"><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
+						<li class="nav-list__item"><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
+						<li class="nav-list__item"><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
+					</ul>
+			</nav>
 		</header>
 
 		<div class="{{page.bgclass}} masthead">
-			<span>{{page.top}}</span>
+			<blockquote>{{page.top}}</blockquote>
 		</div>
 
-		<nav class="unit unit-s-1 unit-m-1 unit-l-1-5">
-			<div class="top-nav unit-spacer">
-				<ul>
-					<li><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
-					<li><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
-					<li><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		<article class="unit unit-s-1 unit-m-3-4 unit-l-3-5">
-			<div class="unit-spacer">
-
-			{{content}}
-
-			</div>
-		</article>
+		<div class="container__content grid">
+<!--
+			<nav class="unit unit-s-1 unit-m-1 unit-l-1-5">
+				<div class="top-nav unit-spacer">
+					{{page.jump}}
+				</div>
+			</nav>
+-->
+			<article class="unit unit-s-1 unit-m-3-4 unit-l-3-5">
+				<div class="unit-spacer">
+					{{content}}
+				</div>
+			</article>
+		</div>
 
 		<footer>
-			<div class="ft-nav unit-spacer">
-				<ul>
-					<li><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
-					<li><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
-					<li><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
+			<div class="unit-spacer">
+				<ul class="footer__nav">
+					<li class="footer__nav__item"><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
+					<li class="footer__nav__item"><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
+					<li class="footer__nav__item"><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
 				</ul>
-				© Fractilia 2013
+				<span class="copyright">© Fractilia 2013</span>
 			</div>
 		</footer>
 
 	</div>
+
+
+<script src="{{site.baseurl}}/js/menu.js"></script>
 
 </body>
 </html>
