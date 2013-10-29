@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang=en-ca>
+<head>
+	<meta charset=utf-8>
+	<title>Fractilia — {{page.title}}</title>
+	<meta name="description" content="{{page.description}}">
+	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{page.title}}">
+	<meta property="og:url" content="http://fractilia.org{{page.url}}">
+	<meta property="og:image" content="{{page.thumb}}">
+	<meta property="og:site_name" content="Fractilia">
+	<meta property="og:description" content="{{page.description}}">
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:title" content="{{page.title}}">
+	<meta property="twitter:url" content="http://fractilia.org{{page.url}}">
+	<meta property="twitter:image" content="page.thumb">
+	<meta property="twitter:description" content="{{page.description}}">
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+			<h1 class="logo">
+				<a href="{{site.baseurl}}/index.html" class="logo__img ir">Fractilia</a>
+			</h1>
+			<div class="searchbar">
+				<input type="search" placeholder="Search">
+			</div>
+			<nav>
+				<div class="searchbar">
+					<input type="search" placeholder="Search">
+				</div>
+				<a href="#" class="nav-btn ir"></a>
+					<ul class="nav nav-list">
+						<li class="nav-list__item"><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
+						<li class="nav-list__item"><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
+						<li class="nav-list__item"><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
+					</ul>
+			</nav>
+		</header>
+
+		<div class="{{page.bgclass}} masthead">
+			<blockquote class="masthead__quote">{{page.top}}</blockquote>
+		</div>
+
+		<div class="container__content grid">
+			<div class="unit unit-s-1 unit-m-1 unit-l-1-5">
+				<div class="top-nav unit-spacer">
+					{{page.jump}}
+				</div>
+			</div>
+			<article class="unit unit-s-1 unit-m-1 unit-l-4-5">
+				<div class="unit-spacer">
+					<h2 id="1">{{page.title}}</h2>
+					<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+						{{content}}
+					</div>
+				</div>
+			</article>
+		</div>
+
+		<footer>
+			<div class="unit-spacer">
+				<ul class="footer__nav">
+					<li class="footer__nav__item"><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
+					<li class="footer__nav__item"><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
+					<li class="footer__nav__item"><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
+				</ul>
+				© Fractilia 2013
+			</div>
+		</footer>
+
+	</div>
+
+
+</body>
+</html>
