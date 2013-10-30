@@ -1,8 +1,52 @@
-@-moz-viewport { width: device-width; scale: 1; }
+m../@-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+@font-face {
+	font-family: 'im_fell_french_canon_proRg';
+	src: url('../font/fefcrm27c-webfont.eot');
+	src: url('../font/fefcrm27c-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/fefcrm27c-webfont.woff') format('woff'),
+		 url('../font/fefcrm27c-webfont.ttf') format('truetype'),
+		 url('../font/fefcrm27c-webfont.svg#im_fell_french_canon_proRg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'im_fell_french_canon_proIt';
+	src: url('../font/fefcit27c-webfont.eot');
+	src: url('../font/fefcit27c-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/fefcit27c-webfont.woff') format('woff'),
+		 url('../font/fefcit27c-webfont.ttf') format('truetype'),
+		 url('../font/fefcit27c-webfont.svg#im_fell_french_canon_proIt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'tiresias_infofontregular';
+    src: url('../font/Tiresias_Infofont-webfont.eot');
+    src: url('../font/Tiresias_Infofont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Tiresias_Infofont-webfont.woff') format('woff'),
+         url('../font/Tiresias_Infofont-webfont.ttf') format('truetype'),
+         url('../font/Tiresias_Infofont-webfont.svg#tiresias_infofontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'tiresias_infofontitalic';
+	src: url('../font/Tiresias_Infofont_Italic-webfont.eot');
+	src: url('../font/Tiresias_Infofont_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Tiresias_Infofont_Italic-webfont.woff') format('woff'),
+		 url('../font/Tiresias_Infofont_Italic-webfont.ttf') format('truetype'),
+		 url('../font/Tiresias_Infofont_Italic-webfont.svg#tiresias_infofontitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 * {
 	-moz-box-sizing: border-box;
@@ -11,7 +55,7 @@
 }
 
 html {
-	font: normal 87.5%/1.4 Georgia, serif;
+	font: normal 87.5%/1.4 "Georgia", serif;
 }
 
 body {
@@ -21,17 +65,13 @@ body {
 
 .container {
 	margin: 0 auto;
-	background: #fff;
+	background: rgba(255,255,255,0.9);
 	max-width: 80em;
 }
 
 header {
 	background: #000;
 	position: relative;
-}
-
-nav {
-	height: 45px;
 }
 
 .logo {
@@ -55,14 +95,21 @@ nav {
 	white-space: nowrap;
 }
 
+nav {
+	height: 45px;
+	position: relative;
+}
+
 .searchbar {
-	display: inline-block;
-	width: 100%;
-	padding: 0.5em;
+	padding: 12px 57px 12px 12px;
 }
 
 .searchbar > input {
+	border: none;
+	padding: 0;
+	height: 21px;
 	width: 100%;
+	font-family: inherit;
 }
 
 .nav[data-state="expanded"] {
@@ -72,27 +119,28 @@ nav {
 	.nav-btn,
 	.nav-btn:link,
 	.nav-btn:visited {
-		bottom: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		display: inline-block;
 		width: 45px;
 		height: 45px;
-		position: absolute;
-		right: 0;
+
+		border-left: 1px solid #fff;
 		background: #000 url("../img/menu.svg") no-repeat center;
 		background-size: contain;
 		vertical-align: middle;
-
 	}
 
 	.nav-btn:hover,
 	.nav-btn:focus,
-	.nav-btn:active {
+	.nav-btn:active,
+	.nav-btn[data-state="active"] {
 		background-color: #fff;
 		background-image: url("../img/menu-hover.svg");
 	}
 
-	.nav-btn[data-state="active"] {
-		background-color: #fff;
-	}
 
 	.nav-list {
 		margin: 0;
@@ -103,11 +151,13 @@ nav {
 		font-size: 1.25rem;
 
 		max-height: 0;
-		overflow: hidden;		position: absolute;
-		top: 120px;
+		overflow: hidden;
+		position: absolute;
+		top: 45px;
 		right: 0;
+		width: 9em;
 
-		background-color: #000;
+		background-color: rgba(255,255,255,0.8);
 
 		-moz-transition: all 250ms ease-in-out;
 		-o-transition: all 250ms ease-in-out;
@@ -120,18 +170,15 @@ nav {
 		.nav-list__item a:visited {
 			display: block;
 			padding: 0.5em;
-
 			border: 0;
-
-			color: #e2e2e2;
+			color: #000;
 			text-decoration: none;
 		}
 
 		.nav-list__item a:hover,
 		.nav-list__item a:focus,
 		.nav-list__item a:active {
-			background-color: #222;
-
+			background-color: rgba(0,0,0,0.8);
 			color: #fff;
 		}
 
@@ -139,12 +186,12 @@ nav {
 	height: 10em;
 }
 
-.masthead > blockquote {
-	display: none;
-}
+	.masthead > blockquote {
+		display: none;
+	}
 
 .home-masthead {
-	background: url(../img/mandelbrot.jpg) no-repeat center;
+	background: url(../img/mandelbrot2.jpg) no-repeat center;
 	background-size: 100%;
 }
 
@@ -165,20 +212,13 @@ nav {
 	padding: 1em;
 }
 
-blockquote {
+h2,
+h3,
+h4,
+h5 {
+	font-family: "tiresias_infofontregular" sans-serif;
+	font-weight: normal
 }
-
-/*
-@media only screen and (min-width: 50em) {
-
-	.top-nav > ul > li {
-		margin: 0;
-		display: block;
-		text-align: right;
-	}
-
-}
-*/
 
 footer {
 	background: #000;
@@ -212,26 +252,31 @@ footer {
 
 @media only screen and (min-width: 24em) {
 
-	header {
-		height: 75px;
-	}
-
 	.masthead {
 		height: 15em;
 	}
 
 	.masthead > blockquote {
+		font-family: "im_fell_french_canon_proIt" sans-serif;
 		display: inline-block;
-		color: rgba(255,0,0,0.7);
+		margin: 1em 1em 1em 1.5rem;
+		color: rgba(255,255,255,1);
+		font-size: 1.5em;
 	}
 
-	.searchbar {
-		display: inline-block;
-		margin-top: 25px;
+
+	.footer__nav__item {
+		display: inline;
+		margin: 0 1em;
 	}
 
-	.searchbar > input {
-		width: auto;
+}
+
+
+@media only screen and (min-width: 35.5em) {
+
+	header {
+		height: 75px;
 	}
 
 	.logo {
@@ -242,23 +287,48 @@ footer {
 		border-bottom: none;
 	}
 
-	.logo__image {
-		background-position: left;
+		.logo__image {
+			background-position: left;
+		}
+
+	.masthead {
+
 	}
 
-	.footer__nav__item {
-		display: inline;
-		margin: 0 1em;
+		.masthead > blockquote {
+			font-size: 2em;
+			line-height: 1.2em;
+			width: 75%
+		}
+
+	nav {
+		float: right;
+		height: 75px;
 	}
 
-}
+		.searchbar {
+			display: inline-block;
+			padding: 20px;
+		}
 
+		.searchbar > input {
+			width: 10em;
+			height: 35px;
+			font-size: 1.5em;
+		}
 
-@media only screen and (min-width: 32em) {
+		.nav-btn,
+		.nav-btn:link,
+		.nav-btn:visited {
+			position: static;
+			width: 75px;
+			height: 75px;
+			margin-top: -8px;
+		}
 
-	.masthead > span {
-		width: 75%;
-	}
+		.nav-list {
+			top: 75px;
+		}
 
 }
 
@@ -270,6 +340,7 @@ footer {
 
 	.masthead > blockquote {
 		font-size: 3em;
+		line-height: 1em;
 	}
 
 	footer {
@@ -280,13 +351,13 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
-	.masthead {
-		height: 25em;
-	}
-
 	.container {
 		border-left: 1px solid #fff;
 		border-right: 1px solid #fff;
+	}
+
+	.masthead {
+		height: 25em;
 	}
 
 }
