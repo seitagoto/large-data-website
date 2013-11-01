@@ -1,9 +1,24 @@
 ---
 title: Benoit Mandelbrot
 layout: article
-ontology: person
 category: what
-jump: <ul class="list-group article-nav"><li class="list-group__item"><a href="#1">Top</a></li><li class="list-group__item"><a href="#2">Early Years</a></li><li class="list-group__item"><a href="#3">Research Career</a></li><li class="list-group__item"><a href="#4">Developing "fractal geometry…</a></li><li class="list-group__item"><a href="#5">Fractals and the "theory of…</a></li><li class="list-group__item"><a href="#6">Awards and Honors</a></li><li class="list-group__item"><a href="#7">Death and Legacy</a></li><li class="list-group__item"><a href="#8">Honors and Awards</a></li></ul>
+menu:
+  - link: "#1"
+    title: Early Years
+  - link: "#2"
+    title: Research Career
+    submenu:
+      - link: "#3"
+        title: Developing "fractal geometry" and the Mandelbrot set
+      - link: "#4"
+        title: Fractals and the "theory of roughness"
+  - link: "#5"
+    title: Awards and Honors
+  - link: "#6"
+    title: Death and Legacy
+  - link: "#7"
+    title: Honors and Awards
+
 thumb: benoit-mandelbrot
 bgclass: benoit-mandelbrot-masthead
 ---
@@ -39,6 +54,8 @@ Centre National de la Recherche Scientifique. During his career, he received ove
 15 honorary doctorates and served on many science journals, along with winning
 numerous awards. His autobiography, The Fractalist, was published in 2012.
 
+<div class="divider"></div>
+
 ### <span id="2">Early Years</span>
 
 Mandelbrot was born in Warsaw into a Jewish family from Lithuania. His family
@@ -68,6 +85,8 @@ Julia and Paul Lévy. From 1947 to 1949 he studied at California Institute of
 Technology, where he earned a master's degree in aeronautics. Returning to
 France, he obtained his PhD degree in Mathematical Sciences at the University of
 Paris in 1952.
+
+<div class="divider"></div>
 
 ### <span id="3">Research Career</span>
 
@@ -104,6 +123,8 @@ Mandelbrot left IBM in 1987, after 35 years and 12 days, when IBM decided to end
 pure research in his division. He joined the Department of Mathematics at Yale,
 and obtained his first tenured post in 1999, at the age of 75. At the time of his
 retirement in 2005, he was Sterling Professor of Mathematical Sciences.
+
+<div class="divider"></div>
 
 #### <span id="4">Developing "fractal geometry" and the Mandelbrot set</span>
 
@@ -157,6 +178,8 @@ complexity?" Clarke also notes an "odd coincidence:" "the name Mandelbrot, and
 the word "mandala"—for a religious symbol—which I'm sure is a pure coincidence,
 but indeed the Mandelbrot set does seem to contain an enormous number of mandalas."
 
+<div class="divider"></div>
+
 #### <span id="5">Fractals and the "theory of roughness"</span>
 
 Mandelbrot created the first-ever "theory of roughness", and he saw "roughness"
@@ -209,6 +232,8 @@ distributed (for example, like Cantor dust), it would not be necessary to rely
 on the Big Bang theory to explain the paradox. His model would not rule out a Big
 Bang, but would allow for a dark sky even if the Big Bang had not occurred.
 
+<div class="divider"></div>
+
 ### <span id="6">Awards and Honors</span>
 
 Mandelbrot's awards include the Wolf Prize for Physics in 1993, the Lewis Fry
@@ -220,7 +245,9 @@ was made a Knight in the French Legion of Honour. In December 2005, Mandelbrot
 was appointed to the position of Battelle Fellow at the Pacific Northwest National
 Laboratory. Mandelbrot was promoted to Officer of the Legion of Honour in January
 2006. An honorary degree from Johns Hopkins University was bestowed on Mandelbrot
-in the May 2010 commencement exercises
+in the May 2010 commencement exercises.
+
+<div class="divider"></div>
 
 ### <span id="7">Death and Legacy</span>
 
@@ -250,7 +277,9 @@ added, "His work, developed entirely outside mainstream research, led to modern
 information theory." Mandelbrot's obituary in The Economist points out his fame
 as "celebrity beyond the academy" and lauds him as the "father of fractal geometry."
 
-## <span id="8">Honors and Awards</span>
+<div class="divider"></div>
+
+### <span id="8">Honors and Awards</span>
 
 A partial list of awards received by Mandelbrot:
 
@@ -273,7 +302,7 @@ A partial list of awards received by Mandelbrot:
 - Medaglia della Presidenza della Repubblica Italiana
 - Médaille de Vermeil de la Ville de Paris
 - Nevada Prize
-- Member of the Norwegian Academy of Science and Letters.[35]
+- Member of the Norwegian Academy of Science and Letters.
 - Science for Art
 - Sven Berggren-Priset
 - Władysław Orlicz Prize
