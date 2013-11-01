@@ -6,7 +6,7 @@
 	<meta name="description" content="{{page.description}}">
 	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/masthead.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
@@ -41,13 +41,13 @@
 					<li class="nav-list__item"><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
 					<li class="nav-list__item"><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
 				</ul>
-
 			</nav>
 		</header>
 
-		<div class="{{page.bgclass}} masthead">
-			<blockquote>{{page.top}}</blockquote>
-		</div>
+		<figure class="{{page.bgclass}} masthead">
+			<blockquote>“{{page.quote}}”</blockquote>
+			<figcaption>— {{page.quotecite}}</figcaption>
+		</figure>
 
 		<div class="container__content grid">
 <!--
@@ -57,7 +57,7 @@
 				</div>
 			</nav>
 -->
-			<article class="unit unit-s-1 unit-m-3-4 unit-l-3-5">
+			<article class="unit unit-s-1 unit-m-3-4 unit-l-3-5 center">
 				<div class="unit-spacer">
 					{{content}}
 				</div>

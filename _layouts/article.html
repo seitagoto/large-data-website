@@ -6,7 +6,7 @@
 	<meta name="description" content="{{page.description}}">
 	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/masthead.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
@@ -31,25 +31,21 @@
 			<h1 class="logo">
 				<a href="{{site.baseurl}}/index.html" class="logo__img ir">Fractilia</a>
 			</h1>
-			<div class="searchbar">
-				<input type="search" placeholder="Search">
-			</div>
 			<nav>
 				<div class="searchbar">
 					<input type="search" placeholder="Search">
 				</div>
-				<a href="#" class="nav-btn ir"></a>
-					<ul class="nav nav-list">
-						<li class="nav-list__item"><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
-						<li class="nav-list__item"><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
-						<li class="nav-list__item"><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
-					</ul>
+				<a href="#" class="nav-btn ir">Menu</a>
+				<ul class="nav nav-list">
+					<li class="nav-list__item"><a href="{{site.baseurl}}/what/index.html">What is Fractal?</a></li>
+					<li class="nav-list__item"><a href="{{site.baseurl}}/types/index.html">Types of Fractal</a></li>
+					<li class="nav-list__item"><a href="{{site.baseurl}}/applications/index.html">Application</a></li>
+				</ul>
 			</nav>
 		</header>
 
-		<div class="{{page.bgclass}} masthead">
-			<blockquote class="masthead__quote">{{page.top}}</blockquote>
-		</div>
+		<figure class="{{page.bgclass}} masthead">
+		</figure>
 
 		<div class="container__content grid">
 			<div class="unit unit-s-1 unit-m-1 unit-l-1-5">
