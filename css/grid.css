@@ -101,13 +101,16 @@
   .unit-l-3-4 {
     width: 75%;
   }
-  .unit-l-1-5 {
-    width: 20%;
-  }
   .unit-l-3-5 {
     width: 60%;
   }
   .unit-l-4-5 {
     width: 80%;
+  }
+  .unit-l-3-10 {
+    width: 30%;
+  }
+  .unit-l-7-10 {
+    width: 70%;
   }
 }
