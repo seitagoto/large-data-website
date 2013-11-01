@@ -22,15 +22,17 @@
 	<meta property="twitter:url" content="http://fractilia.org{{page.url}}">
 	<meta property="twitter:image" content="page.thumb">
 	<meta property="twitter:description" content="{{page.description}}">
+	<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
 
 	<div class="container">
 
 		<header>
-			<h1 class="logo">
+			<strong class="logo">
 				<a href="{{site.baseurl}}/index.html" class="logo__img ir">Fractilia</a>
-			</h1>
+			</strong>
 			<nav>
 				<div class="searchbar">
 					<input type="search" placeholder="Search">
@@ -48,19 +50,39 @@
 		</figure>
 
 		<div class="container__content grid">
-			<div class="unit unit-s-1 unit-m-1 unit-l-1-5">
-				<div class="top-nav unit-spacer">
-					{{page.jump}}
+			<div class="unit unit-s-1 unit-m-1 unit-l-1">
+
+				<div class="unit-spacer">
+					<h1 id="1">{{page.title}}</h1>
+				</div>
+				<div class="grid">
+					<div class="unit unit-s-1 unit-m-3-4 unit-l-3-10">
+						<div class="unit-spacer">
+							<ol class="article-nav">
+								{% for item in page.menu %}
+									<li class="article-nav__item">
+										<a href="{{item.link}}">{{item.title}}</a>
+										{% if item.submenu %}
+											<ol class="article-nav__sub">
+												{% for subitem in item.submenu %}
+													<li class="article-nav__sub__item"><a href="{{subitem.link}}">{{subitem.title}}</a></li>
+												{% endfor %}
+											</ol>
+										{% endif %}
+									</li>
+								{% endfor %}
+							</ol>
+						</div>
+					</div>
+					<article class="unit unit-s-1 unit-m-1 unit-l-7-10">
+						<div class="unit-spacer">
+							<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+								{{content}}
+							</div>
+						</div>
+					</article>
 				</div>
 			</div>
-			<article class="unit unit-s-1 unit-m-1 unit-l-4-5">
-				<div class="unit-spacer">
-					<h2 id="1">{{page.title}}</h2>
-					<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-						{{content}}
-					</div>
-				</div>
-			</article>
 		</div>
 
 		<footer>
@@ -76,6 +98,7 @@
 
 	</div>
 
+<script src="{{site.baseurl}}/js/menu.js"></script>
 
 </body>
 </html>
