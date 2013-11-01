@@ -3,8 +3,9 @@ title: Benoit Mandelbrot
 layout: article
 ontology: person
 category: what
-jump: <ul><li><a href="#1">Top</a></li><li><a href="#2">Early Years</a></li><li><a href="#3">Research Career</a></li></ul>
+jump: <ul class="list-group article-nav"><li class="list-group__item"><a href="#1">Top</a></li><li class="list-group__item"><a href="#2">Early Years</a></li><li class="list-group__item"><a href="#3">Research Career</a></li><li class="list-group__item"><a href="#4">Developing "fractal geometry…</a></li><li class="list-group__item"><a href="#5">Fractals and the "theory of…</a></li><li class="list-group__item"><a href="#6">Awards and Honors</a></li><li class="list-group__item"><a href="#7">Death and Legacy</a></li><li class="list-group__item"><a href="#8">Honors and Awards</a></li></ul>
 thumb: benoit-mandelbrot
+bgclass: benoit-mandelbrot-masthead
 ---
 
 Benoit B. Mandelbrot (20 November 1924 – 14 October 2010) was a Polish-born,
@@ -104,7 +105,7 @@ pure research in his division. He joined the Department of Mathematics at Yale,
 and obtained his first tenured post in 1999, at the age of 75. At the time of his
 retirement in 2005, he was Sterling Professor of Mathematical Sciences.
 
-#### Developing "fractal geometry" and the Mandelbrot set
+#### <span id="4">Developing "fractal geometry" and the Mandelbrot set</span>
 
 In 1975, Mandelbrot coined the term fractal to describe these structures and first
 published his ideas in 1975, and later translated, Fractals: Form, Chance and
@@ -156,7 +157,7 @@ complexity?" Clarke also notes an "odd coincidence:" "the name Mandelbrot, and
 the word "mandala"—for a religious symbol—which I'm sure is a pure coincidence,
 but indeed the Mandelbrot set does seem to contain an enormous number of mandalas."
 
-#### Fractals and the "theory of roughness"
+#### <span id="5">Fractals and the "theory of roughness"</span>
 
 Mandelbrot created the first-ever "theory of roughness", and he saw "roughness"
 in the shapes of mountains, coastlines and river basins; the structures of plants,
@@ -188,10 +189,11 @@ and stock market prices. Mandelbrot believed that fractals, far from being unnat
 were in many ways more intuitive and natural than the artificially smooth objects
 of traditional Euclidean geometry:
 
-> Clouds are not spheres, mountains are not cones, coastlines are not circles, and
-> bark is not smooth, nor does lightning travel in a straight line.
->
-> 	<cite>—Mandelbrot, in his introduction to The Fractal Geometry of Nature</cite>
+<figure>
+<blockquote>Clouds are not spheres, mountains are not cones, coastlines are not circles, and
+bark is not smooth, nor does lightning travel in a straight line.</blockquote>
+<figcaption>—Mandelbrot, in his introduction to The Fractal Geometry of Nature</figcaption>
+</figure>
 
 Mandelbrot has been called a visionary and a maverick. His informal and passionate
 style of writing and his emphasis on visual and geometric intuition (supported by
@@ -207,7 +209,7 @@ distributed (for example, like Cantor dust), it would not be necessary to rely
 on the Big Bang theory to explain the paradox. His model would not rule out a Big
 Bang, but would allow for a dark sky even if the Big Bang had not occurred.
 
-### Awards and Honors
+### <span id="6">Awards and Honors</span>
 
 Mandelbrot's awards include the Wolf Prize for Physics in 1993, the Lewis Fry
 Richardson Prize of the European Geophysical Society in 2000, the Japan Prize in
@@ -220,7 +222,7 @@ Laboratory. Mandelbrot was promoted to Officer of the Legion of Honour in Januar
 2006. An honorary degree from Johns Hopkins University was bestowed on Mandelbrot
 in the May 2010 commencement exercises
 
-###Death and Legacy
+### <span id="7">Death and Legacy</span>
 
 Mandelbrot died in a hospice in Cambridge, Massachusetts, on 14 October 2010 from
 pancreatic cancer, at the age of 85. Reacting to news of his death, mathematician
@@ -248,7 +250,7 @@ added, "His work, developed entirely outside mainstream research, led to modern
 information theory." Mandelbrot's obituary in The Economist points out his fame
 as "celebrity beyond the academy" and lauds him as the "father of fractal geometry."
 
-## Honors and Awards
+## <span id="8">Honors and Awards</span>
 
 A partial list of awards received by Mandelbrot:
 
