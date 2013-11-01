@@ -17,6 +17,16 @@
   vertical-align: top;
   word-spacing: normal;
 }
+.center {
+  margin: 0 auto;
+  display: block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  text-rendering: auto;
+  vertical-align: top;
+  word-spacing: normal;
+}
 .unit-spacer {
   padding: 8px;
 }
