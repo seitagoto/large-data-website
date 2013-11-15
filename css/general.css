@@ -202,8 +202,11 @@ nav {
 		display: none;
 		font-family: "crimson_textitalic" sans-serif;
 		font-size: 1.5em;
-		text-indent: -0.2em;
 		margin: 0;
+	}
+
+	.masthead > .masthead__quote {
+		text-indent: -0.2em;
 	}
 
 	.masthead > figcaption {
@@ -277,6 +280,10 @@ h4,
 h5 {
 	font-family: "tiresias_infofontregular" sans-serif;
 	font-weight: normal;
+}
+
+h1 {
+	margin: 0;
 }
 
 h3 {
@@ -382,7 +389,7 @@ footer {
 
 		.searchbar {
 			display: inline-block;
-			padding: 20px;
+			padding: 20px 97px 20px 20px;
 		}
 
 		.searchbar > input {
@@ -394,10 +401,8 @@ footer {
 		.nav-btn,
 		.nav-btn:link,
 		.nav-btn:visited {
-			position: static;
 			width: 75px;
 			height: 75px;
-			margin-top: -0.375em;
 		}
 
 		.nav-list {
@@ -457,7 +462,7 @@ footer {
 @media only screen and (min-width: 80em) {
 
 	.container {
-		margin-top: 2em;
+		margin: 2em auto;
 		border: 1px solid #fff;
 	}
 
