@@ -1,14 +1,14 @@
 .home-masthead {
-	background: url(../img/home.jpg) no-repeat center;
+	background-image: url(../img/home.jpg);
 	background-size: 120%;
 }
 
 .what-masthead {
-	background: url(../img/what-is-fractal.jpg) no-repeat center;
+	background-image: url(../img/what-is-fractal.jpg);
 	background-size: 100%;
 }
 
 .benoit-mandelbrot-masthead {
-	background: url(../img/benoit-mandelbrot.jpg) no-repeat center;
+	background-image: url(../img/benoit-mandelbrot.jpg);
 	background-size: 100%;
 }

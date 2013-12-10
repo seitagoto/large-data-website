@@ -85,11 +85,10 @@ header {
 }
 
 .logo__img {
-	display: inline-block;
-	background: url(../img/fractilia-logo.svg) no-repeat center;
+	display: block;
+	background: transparent url(../img/fractilia-logo.svg) no-repeat center;
 	background-size: contain;
 	vertical-align: middle;
-	display: block;
 	height: 75px;
 }
 
@@ -194,8 +193,11 @@ nav {
 	margin: 0;
 	padding: 2rem 1.5em 3em 1.5rem;
 	color: #fff;
+	background-color: #001689;
+	background-repeat: no-repeat;
+	background-position: center;
 	border-top: 1px solid #fff;
-		border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 	.masthead > blockquote {

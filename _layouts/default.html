@@ -4,9 +4,11 @@
 	<meta charset=utf-8>
 	<title>Fractilia — {{page.title}}</title>
 	<meta name="description" content="{{page.description}}">
+	<link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/masthead.css" rel="stylesheet">
+	<script src="{{site.baseurl}}/js/modernizr.custom.95860.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
@@ -22,6 +24,7 @@
 	<meta property="twitter:url" content="http://fractilia.org{{page.url}}">
 	<meta property="twitter:image" content="../img/mandelbrot.jpg">
 	<meta property="twitter:description" content="Fractilia is a place of learning for people from all walks of life. This site was made to spread the knowledge of this beautiful mathematics.">
+
 </head>
 <body>
 
@@ -44,7 +47,7 @@
 			</nav>
 		</header>
 
-		<figure class="{{page.bgclass}} masthead">
+		<figure class="masthead {{page.bgclass}}">
 			<blockquote class="masthead__quote">“{{page.quote}}”</blockquote>
 			<figcaption>— {{page.quotecite}}</figcaption>
 		</figure>
