@@ -65,6 +65,34 @@ body {
 	background-color: #000;
 }
 
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 3000;
+
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.5em 0.75em;
+	position: absolute;
+	top: -10em;
+
+	color: #fff;
+	text-decoration: none;
+}
+
+.skiplinks a:focus {
+	top: 0;
+}
+
 .container {
 	margin: 0 auto;
 	background: #fff;

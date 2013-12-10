@@ -4,7 +4,7 @@ layout: article
 category: what
 menu:
   - link: "#1"
-    title: Early Years
+    title: {{page.title}}
   - link: "#2"
     title: Research Career
     submenu:

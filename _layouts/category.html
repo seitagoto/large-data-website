@@ -27,6 +27,21 @@
 </head>
 <body>
 
+	<ol class="skiplinks">
+		{% for item in page.menu %}
+			<li class="article-nav__item">
+				<a href="{{item.link}}">{{item.title}}</a>
+				{% if item.submenu %}
+					<ol class="article-nav__sub">
+						{% for subitem in item.submenu %}
+							<li class="article-nav__sub__item"><a href="{{subitem.link}}">{{subitem.title}}</a></li>
+						{% endfor %}
+					</ol>
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ol>
+
 	<div class="container">
 
 		<header>
