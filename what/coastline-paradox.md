@@ -1,8 +1,13 @@
 ---
 title: Coastline Paradox
 layout: article
-ontology: terminology
 category: what
+menu:
+  - link: "#1"
+    title: Mathematical Aspects
+  - link: "#2"
+    title: Practical
+
 ---
 
 The coastline paradox is the counterintuitive observation that the coastline of
