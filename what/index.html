@@ -12,7 +12,7 @@ social: <meta property="og:type" content="article"><meta property="og:title" con
 		{% for fractal in site.pages %}
 			{% if fractal.category == "what" %}
 				<li class="list-group-item">
-					<a href="{{site.baseurl}}/{{fractal.url}}">{{fractal.title}}</a>
+					<a href="{{site.baseurl}}{{fractal.url}}">{{fractal.title}}</a>
 					<p>{{fractal.description}}</p>
 				</li>
 			{% endif %}
