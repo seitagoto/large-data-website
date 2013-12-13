@@ -40,7 +40,7 @@ sphere. The length of basic curves is more complicated but can also be calculate
 Measuring with rulers, a person can approximate the length of a curve by adding
 the sum of the straight lines which connect the points:
 
-![illustration1]({{site.baseurl}}img/330px-arclength.svg)
+<img class="flex-img" src="{{site.baseurl}}/img/Arclength.svg">
 
 Using a few straight lines to approximate the length of a curve will produce a
 low estimate. Using shorter and shorter lines will produce sums that approach the
@@ -49,14 +49,12 @@ calculus, a branch of mathematics which enables calculation of infinitely small
 distances. The following animation illustrates how a smooth curve can be meaningfully
 assigned a precise length:
 
-![illustration2](file-arc_length.gif)
+<img class="flex-img" src="{{site.baseurl}}/img/Arc_length.gif">
 
 However, not all curves can be measured in this way. A fractal is by definition
 a curve whose complexity changes with measurement scale. Whereas approximations
 of a smooth curve get closer and closer to a single value as measurement precision
 increases, the measured value of fractals may change wildly.
-
-![illustration2](file-sierpiński_curve_order_4.svg)
 
 The length of a "true fractal" always diverges to infinity. However, this
 figure relies on the idea that space can be subdivided indefinitely. This
