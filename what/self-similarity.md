@@ -1,8 +1,19 @@
 ---
 title: Self-Similarity
 layout: article
-ontology: person
 category: what
+menu:
+  - link: "#1"
+    title: Introduction
+  - link: "#2"
+    title: Definition
+  - link: "#3"
+    submenu:
+      - link: "#4"
+        title: In Nature
+      - link: "#5"
+        title: In Music
+
 ---
 
 In mathematics, a self-similar object is exactly or approximately similar to a
@@ -20,7 +31,9 @@ The non-trivial similarity evident in fractals is distinguished by their fine
 structure, or detail on arbitrarily small scales. As a counterexample, whereas
 any portion of a straight line may resemble the whole, further detail is not revealed.
 
-## Definition
+<div class="divider"></div>
+
+## <span id="2">Definition</span>
 
 A compact topological space X is self-similar if there exists a finite set S indexing
 a set of non-surjective homeomorphisms ![equation1](equation1.gif) for which
@@ -36,7 +49,9 @@ the set S has p elements, then the monoid may be represented as a p-adic tree.
 The automorphisms of the dyadic monoid is the modular group; the automorphisms
 can be pictured as hyperbolic rotations of the binary tree.
 
-## Examples
+<div class="divider"></div>
+
+## <span id="3">Examples</span>
 
 The Mandelbrot set is also self-similar around Misiurewicz points.
 
@@ -56,13 +71,17 @@ including the Cantor set and the Sierpinski triangle.
 
 Andrew Lo describes Stock Market log return self-similarity in Econometrics.
 
-### In Nature
+<div class="divider"></div>
+
+### <span id="4">In Nature</span>
 
 Self-similarity can be found in nature, as well. To the right is a
 mathematically-generated, perfectly self-similar image of a fern, which bears a
 marked resemblance to natural ferns. Other plants, such as Romanesco broccoli,
 exhibit strong self-similarity.
 
-### In Music
+<div class="divider"></div>
+
+### <span id="5">In Music</span>
 
 In music, a Shepard tone is self-similar in the frequency or wavelength domains.

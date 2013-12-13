@@ -4,19 +4,21 @@ layout: article
 category: what
 menu:
   - link: "#1"
-    title: {{page.title}}
+    title: Introduction
   - link: "#2"
+    title: Early Years
+  - link: "#3"
     title: Research Career
     submenu:
-      - link: "#3"
-        title: Developing "fractal geometry" and the Mandelbrot set
       - link: "#4"
+        title: Developing "fractal geometry" and the Mandelbrot set
+      - link: "#5"
         title: Fractals and the "theory of roughness"
-  - link: "#5"
-    title: Awards and Honors
   - link: "#6"
-    title: Death and Legacy
+    title: Awards and Honors
   - link: "#7"
+    title: Death and Legacy
+  - link: "#8"
     title: Honors and Awards
 
 thumb: benoit-mandelbrot

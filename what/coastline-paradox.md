@@ -4,9 +4,14 @@ layout: article
 category: what
 menu:
   - link: "#1"
-    title: Mathematical Aspects
+    title: Introduction
   - link: "#2"
+    title: Mathematical Aspects
+  - link: "#3"
     title: Practical
+
+thumb: coastline-paradox
+bgclass: coastline-paradox-masthead
 
 ---
 
@@ -22,7 +27,9 @@ the size of the smallest feature that should not be measured around, and hence n
 single well-defined perimeter to the landmass. Various approximations exist when
 specific assumptions are made about minimum feature size.
 
-### Mathematical Aspects
+<div class="divider"></div>
+
+## <span id="2">Mathematical Aspects</span>
 
 The basic concept of length originates from Euclidean distance. In the familiar
 Euclidean geometry, a straight line represents the shortest distance between two
@@ -33,7 +40,7 @@ sphere. The length of basic curves is more complicated but can also be calculate
 Measuring with rulers, a person can approximate the length of a curve by adding
 the sum of the straight lines which connect the points:
 
-![illustration1](illustration1.png)
+![illustration1]({{site.baseurl}}img/330px-arclength.svg)
 
 Using a few straight lines to approximate the length of a curve will produce a
 low estimate. Using shorter and shorter lines will produce sums that approach the
@@ -42,12 +49,14 @@ calculus, a branch of mathematics which enables calculation of infinitely small
 distances. The following animation illustrates how a smooth curve can be meaningfully
 assigned a precise length:
 
-![illustration2](illustration2.gif)
+![illustration2](file-arc_length.gif)
 
 However, not all curves can be measured in this way. A fractal is by definition
 a curve whose complexity changes with measurement scale. Whereas approximations
 of a smooth curve get closer and closer to a single value as measurement precision
 increases, the measured value of fractals may change wildly.
+
+![illustration2](file-sierpiński_curve_order_4.svg)
 
 The length of a "true fractal" always diverges to infinity. However, this
 figure relies on the idea that space can be subdivided indefinitely. This
@@ -58,7 +67,9 @@ and 'distance' on the atomic level.
 Coastlines differ from mathematical fractals because they are formed by numerous
 small events, which create patterns only statistically.
 
-### Practical
+<div class="divider"></div>
+
+## <span id="3">Practical</span>
 
 For practical considerations, an appropriate choice of minimum feature size is on
 the order of the units being used to measure. If a coastline is measured in kilometers,
